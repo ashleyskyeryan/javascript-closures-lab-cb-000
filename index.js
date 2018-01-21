@@ -6,13 +6,12 @@ function bumpCounter() {
     counter++
   };
   function getBumps() {
-    return counter
+    return counter;
   }
 
   return {
     addBump,
     getBumps
-    
-  }
-  
+
+  };
 }
