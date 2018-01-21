@@ -15,3 +15,10 @@ function bumpCounter() {
 
   };
 }
+
+
+function createAnimal(animalType) {
+  return function ObjectIt(deadlyDevice) {
+    return {animalType: animalType, deadlyDevice: deadlyDevice} 
+  }
+}
